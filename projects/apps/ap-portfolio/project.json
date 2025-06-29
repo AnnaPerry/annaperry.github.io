@@ -2,7 +2,7 @@
   "name": "ap-portfolio",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "app",
+  "prefix": "portfolio",
   "sourceRoot": "apps/ap-portfolio/src",
   "tags": [],
   "targets": {
@@ -21,7 +21,7 @@
             "input": "apps/ap-portfolio/public"
           }
         ],
-        "styles": ["apps/ap-portfolio/src/styles.scss"]
+        "styles": ["apps/ap-portfolio/src/styles.scss", "apps/ap-portfolio/src/_utilities.scss"]
       },
       "configurations": {
         "production": {

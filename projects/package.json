@@ -2,13 +2,16 @@
   "name": "@projects/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve"
+  },
   "private": true,
   "dependencies": {
     "@angular/common": "~20.0.0",
     "@angular/compiler": "~20.0.0",
     "@angular/core": "~20.0.0",
     "@angular/forms": "~20.0.0",
+    "@angular/material": "^20.0.4",
     "@angular/platform-browser": "~20.0.0",
     "@angular/router": "~20.0.0",
     "rxjs": "~7.8.0",
@@ -40,6 +43,10 @@
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^10.0.0",
     "eslint-plugin-playwright": "^1.6.2",
+    "jasmine-core": "^5.8.0",
+    "karma": "^6.4.4",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
     "nx": "21.2.1",
     "prettier": "^2.6.2",
     "tslib": "^2.3.0",

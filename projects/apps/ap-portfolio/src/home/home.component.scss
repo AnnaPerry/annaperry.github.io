@@ -1,0 +1,12 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  margin-top: 4rem;
+  height: calc(100vh - 4rem);
+}
+
+.content-center {
+    margin-left: 20%;
+    margin-right: 20%;
+}

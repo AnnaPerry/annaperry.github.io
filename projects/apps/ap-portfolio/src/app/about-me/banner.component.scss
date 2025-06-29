@@ -1,0 +1,13 @@
+.banner {
+    font-size:     var(--mat-sys-headline-large-size);
+    background-color: var(--mat-sys-primary-container);
+    color: var(--mat-sys-primary);
+    line-height: var(--mat-sys-headline-large-line-height);
+
+    padding: 10rem 0 10rem 0;
+    text-align: center;
+}
+
+:host {
+    width: 100%;
+}
